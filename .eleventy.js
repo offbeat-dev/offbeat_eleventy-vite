@@ -1,8 +1,8 @@
 const EleventyVitePlugin = require("@11ty/eleventy-plugin-vite");
 module.exports = function (eleventyConfig) {
   // Copy/pass-through files
-  eleventyConfig.addPassthroughCopy("src/assets/css");
-  eleventyConfig.addPassthroughCopy("src/assets/js");
+  eleventyConfig.addPassthroughCopy("src/assets/styles");
+  eleventyConfig.addPassthroughCopy("src/assets/scripts");
 
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     tempFolderName: ".11ty-vite", // Default name of the temp folder

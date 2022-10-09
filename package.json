@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "A clean and simple Eleventy 2 Starter with Vite",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --watch --serve",
     "serve": "npx @11ty/eleventy --serve"
   },
   "browserslist": [
@@ -16,6 +16,7 @@
     "@11ty/eleventy": "2.0.0-canary.16",
     "@11ty/eleventy-plugin-vite": "^1.0.0",
     "focus-visible": "^5.2.0",
+    "typescript": "^4.8.4",
     "vite": "^3.1.6"
   }
 }
